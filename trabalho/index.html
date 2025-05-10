@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação</title>
+
+    <!-- Código HTML para o menu -->
+
+<nav class="container menu">
+    <table>
+        <th>
+            <td><a href="index.html">Sobre Mim</a></td>
+            <td><a href="formacao.html">Formação</a></td>
+            <td><a href="portfolio.html">Portfólio</a></td>
+            <td><a href="contato.html">Contato</a></td>
+        </th>
+    </table>
+</nav>
+<!-- Código CSS para estilizar o menu -->
+<style>
+    .container {
+        display: grid;
+    }
+
+    
+    header {
+        grid-column-start: 1;
+        grid-column-end: 12;
+        background-color: #67a8a0;
+    }
+
+
+    .menu {
+        grid-column-start: 6;
+        grid-column-end: 12;
+        justify-content: center;/*centraliza o menu*/
+        gap: 20px;
+        background-color: #00c3ff;
+    }
+
+    .principal {
+        grid-column-start: 4;
+        grid-column-end: 12;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: justify;
+    }
+
+    footer {
+        grid-column-start: 1;
+        grid-column-end: 12;
+        background-color: #00c3ff;
+        color: white;
+        text-align: center;
+    }
+
+    td {
+        list-style-type: none;
+        color: #00c3ff;
+    }
+
+    a,
+    a:link {
+        text-decoration: none;
+        padding: 0px 16px;
+        border: solid #00c3ff 1px;
+    }
+
+    td {
+        float: left;
+    }
+
+    a:hover {
+        background-color: #00c3ff;
+        color: white;
+    }
+
+</style>
+</head>
+<body>
+    <h1>Sobre mim</h1>
+    <p>Olá! Meu nome é Larissa. Eu gosto de Ler, assitir filmes da Marvel e Animes, e por mais que não pratique ultimamente gosto de natação.</p>
+</body>
+</html>
